@@ -26,8 +26,9 @@
 
  <gazebo reference="laser_frame">
         <material>Gazebo/Red</material>
-
-        <!--<sensor name="laser" type="ray"> <!--ray means a scanning lidar-->
+    </gazebo>
+</robot>
+        <!-- <sensor name="laser" type="ray"> <!--ray means a scanning lidar-->
             <pose> 0 0 0 0 0 0 </pose>
             <visualize>true</visualize>
             <update_rate>10</update_rate>
@@ -51,6 +52,5 @@
                 <output_type>sensor_msgs/LaserScan</output_type>
                 <frame_name>laser_frame</frame_name>
             </plugin>
-        </sensor>
-    </gazebo>
-</robot>
+        </sensor> -->
+
